@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project1/pages/detail_page.dart';
-import 'package:project1/pages/image_page.dart';
-import 'package:project1/pages/row_col_page.dart';
 import 'package:project1/pages/expanded_page.dart';
+import 'package:project1/pages/image_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

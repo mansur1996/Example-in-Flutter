@@ -26,15 +26,13 @@ class _ImagePageState extends State<ImagePage> {
         ],
       ),
       body: Center(
-        child: TextButton(
-          onPressed: () {
-            print("pressed");
-          },
-          child: const Text(
-            "TextButton",
-            style: TextStyle(color: Colors.orange, fontSize: 26),
-          ),
-        ),
+        // child: Image(
+        //   width: 400,
+        //   height: 400,
+        //   fit: BoxFit.cover,
+        //   image: AssetImage("assets/images/ic_image1.jpg"),
+        // ),
+        child: Image.network("https://blog.logrocket.com/wp-content/uploads/2022/02/Best-IDEs-Flutter-2022.png"),
       ),
     );
   }

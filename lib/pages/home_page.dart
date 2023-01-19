@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text(
           "Home",
-          style: TextStyle(color: Colors.amberAccent, fontSize: 25),
+          style: TextStyle(color: Colors.amberAccent, fontSize: 25,fontFamily: 'Playfair'),
         ),
         centerTitle: true,
         actions: const [
